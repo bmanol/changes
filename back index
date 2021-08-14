@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Changes in the fields</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/jquery-3.4.1.js"></script>
+</head>
+
+<body id="page-top">
+
+ <!--   <iframe src="assets/audio/silence.mp3" allow="autoplay" id="audio" style="display:none"></iframe>
+    <audio id="player" preload="auto" autoplay loop>
+        <source src="assets/audio/call-you.mp3" type="audio/mp3">
+    </audio> -->
+    <div class="fullscreen-bg-video d-none d-sm-block">
+        <!--<video loop autoplay muted>
+            <source type="video/mp4" src="assets/video/changes.mp4">
+        </video>-->
+		<video loop autoplay muted playsinline poster="assets/video/blank.png">
+		    <source src="assets/video/changes.mp4" type="video/mp4"/>
+		    <source src="assets/video/changes.webm" type="video/webm"/>
+		    <source src="assets/video/changes.ogv" type="video/ogg"/>    
+		</video>
+    </div>
+
+    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#">HOME</a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                value="Menu"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#documentary">About the documentary</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#filmmakers">About the filmmakers</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#climate">Climate smart agriculture</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>          
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead">
+
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <p class="brand-heading" style="font-family:Lora;"><br>Changes in the fields<br></p>
+
+                        <p class="intro-text">A documentary on climate change and agriculture. This is a journey across Myanmar exploring the lives of farmers and how they are affected by climate change. </p>
+                        <br>
+                    
+
+                        <button class="btn btn-primary btn-lg active" onclick=" window.open('https://www.youtube.com/watch?v=kdVBEbYGjL0', '_blank'); return false;">Watch the full documentary</button>
+
+                        <br><br>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="documentary" class="content-section text-center" >
+        <div class="container" >
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>About the documentary</h2>
+                    <p> One of the things which brings people together is Earth, because we are all on it.</p>
+                    <p>Changes in the Fields is an environmental feature documentary following the lives of farmers in Myanmar and explores the challenges they face that are exacerbated by climate change.</p>
+                    <p>Agriculture is one of the most vulnerable sectors to the impacts of climate change. As we interview farmers in different parts of Myanmar, we discover how their daily lives are affected by a changing climate.</p>
+                    <p>This documentary reveals the devastating impacts of climate change on agriculture, and offers a path towards sustainable practices for a growing population.</p>
+                    <p>It is now time to learn, once again, how to live in partnership with nature.</p>
+					<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vision">Our Vision</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#context">The context</button>
+					<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#methodology">Methodology</button><br><br>
+					<img src="assets/img/partners.png" class="img-fluid" alt="Partners">
+					<!-- Modal -->
+					<div class="modal fade " id="vision" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+					  aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">Our Vision</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <p>We wanted to address the challenges and thought it was essential to foster a platform for dialogue around climate change in Myanmar, from the perspective of local farmers. We also wanted to gain more traction in this area from international non-governmental organisations, the private sector, civil society organisations, and the government. <br><br>
+
+							In May 2019, we first met and discussed ideas about how to create such a platform. We thought that by producing a documentary about the impact of climate change on agriculture, we could raise awareness about the issue. We were able to delve into topics such as climate smart agriculture methods, organic farming, food security issues, slash and burn practices, as well as research deforestation, sea level rise, erosion, the Myanmar government’s policy and legal framework on climate change, its programmes and partnerships, and much more…<br><br>
+
+							In May 2020, we are proud and happy to share our work with you.</p>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+					<!-- Modal -->
+					<div class="modal fade" id="context" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLongTitle">The Context</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <p>We live in a country where the air is always warm and humid, where as the sun sets it emits vivid colors of reds and pinks, where the monsoon season lasts for 5 months on average, starting in May and ending in September, where the wind is barely heard, where in some areas humans live alongside elephants, tigers and monkeys. But for how much longer? <br><br>
+
+							We are all feeling the effects of climate change already, that has been amplified by human activities within the past century. However, the impacts are felt differently across the world and developing countries and vulnerable communities are the most susceptible. <br><br>
+
+							According to the <a href="https://germanwatch.org/sites/germanwatch.org/files/20-2-01e%20Global%20Climate%20Risk%20Index%202020_10.pdf" target="new_window"> German Watch 2020 Global Climate Risk Index</a>, Myanmar was identified as the second most affected country by extreme weather events worldwide. An example of this can be highlighted by the cyclone Nargis that hit the country in 2008. The cyclone produced an estimated $10 Bn USD worth of damage, affected 2.4 million people, and caused approximately 140,000 fatalities. The cyclone is regarded as one of the worst natural disasters to have ever occurred in Southeast Asia. <br><br>
+
+							Recent WWF research confirms that Myanmar’s climate is expected to change dramatically, as it is likely to be faced with rising temperatures in several areas and impacted by sea level rise. <br><br>
+
+							Myanmar is a place of belief and tradition, where deep relationships between the land and humans are still present. More than 70% of the population work in agriculture, and it is a vital sector to the country’s economy. At the same time, agriculture is also one of the most affected sectors by climate change, impacting a vast number of people in value chains, from farmers to consumers.<br><br>
+
+							Unpredictable weather changes play a major role in local agricultural practices. In order to overcome the felt impacts of climate change, farmers in Myanmar have resulted to increase their use of pesticides, causing more environmental damage and contributing to health and food security issues.<br><br> 
+
+							Climate change has multiple effects on agriculture, some of which include:</p>
+
+							<ul>
+								<li>Reduced crop yields</li>
+								<li>Increased spread of various pests</li>
+								<li>Fluctuations in water quality and quantity, due to heatwaves and droughts</li>
+								<li>Food security issues</li>
+								<li>Destroyed crops due to flooding and irregular rainfall</li>				
+								<li>Changes in the cropping calendar</li>				
+								<li>Salinisation of the soil due to sea level rise, making land unusable for agriculture</li>				
+								<li>Loss of local livelihoods</li>							
+							</ul>		
+							
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>					
+
+					<!-- Modal -->
+					<div class="modal fade " id="methodology" tabindex="-1" role="dialog" aria-labelledby="Methodology"
+					  aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="Methodology">Methodology</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					        <p>We are very thankful to our three partners and sponsors - GIZ, Helvetas Myanmar and ICCO Cooperation. With their support we had access to information from their projects which integrate climate smart agriculture methods. We also had access to stories from farmers and their practices across Myanmar, including Ywangan Township (Shan State), Bilin Township (Mon State), and Ywangan Township (Yangon Region).<br><br>
+
+							We conducted interviews with more than ten farmers and agronomists. We visited Yezin Agriculture University’s Climate Smart Agriculture Centre, where we were able to have a discussion with Dr Yarzar Hein from the Department of Agricultural Economics. We also managed to obtain an interview from the Department of Meteorology & Hydrology. <br><br>
+
+							Before every filming trip, we conducted field visits and documented the challenges and solutions applied by farmers in the face of climate change. <br><br>
+
+							We would like to express warm and grateful thanks to our filming crew from Next Media Production for their work, to our editor Mi Mi Kyaw Lwin from the Yangon Film School, our animator Zaw Bo Bo Hein from Kyarsityoe Animation, the translators, research people and everyone who supported us along the project.</p>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="filmmakers" class="download-section content-section text-center" style="background-image:url('assets/img/sun1.jpg');">
+        <div class="container">
+            <div class="col-lg-12 mx-auto">
+                <h1>About the filmmakers</h1>
+                <!--<p>You can review or watch anime on shikimori</p><a href="https://shikimori.one/animes/33502-shuumatsu-nani-shitemasu-ka-isogashii-desu-ka-sukutte-moratte-ii-desu-ka"><button class="btn btn-primary btn-lg btn-default" type="button">visit shikimori</button></a>-->
+            </div>
+
+           <div class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<img alt="Bootstrap Image Preview" src="assets/img/tomas.jpg" class="rounded-circle" />
+					<br><br><h3>Tomas Derville</h3>
+					<p class="text-center">
+						Tomas Derville’s environmental awakening came after watching the documentary <em>Before the Flood</em>. Since then, he promised himself to strive to raise awareness about climate change and created the Facebook page ‘<a href="https://www.facebook.com/climatechangeawarenessmovement/" target="new_window">Climate Change Awareness Movement</a>’. <br>After moving to Myanmar in 2017, Tomas fell in love with the country and has lived there ever since, working as a consultant on advocacy and sustainable issues. Tomas is currently studying a Masters in Climate Change and Development at SOAS University of London.
+					</p>
+				</div>
+				<div class="col-md-6">
+					<img alt="Bootstrap Image Preview" src="assets/img/beatrice.jpg" class="rounded-circle" />
+					<br><br><h3>Beatrice Manole</h3>
+					<p class="text-center">
+						How to make people more aware? More conscious about the importance of nature? About self-respect, mutual respect? How does one respond to greediness with more altruism? Through her curiosity, she’s met, lived and worked with people of different backgrounds, cultures and beliefs. Her pleasures lie in geographical explorations, observing human behavior, analysing social norms and cultural symbols, which all contribute to her understanding of the systems we are part of and the values we adhere to. Beatrice is motivated by social movements and people who take action in tackling social, economic and environmental justice.
+					</p>
+				</div>
+			</div>
+		   </div>     
+
+
+        </div>
+    </section>
+
+    <section id="climate" class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>CLIMATE SMART AGRICULTURE</h2>
+                    <p>Climate smart agriculture practices are currently being researched and implemented across Myanmar. Some methods include changes in the cropping calendar and introducing good quality, or short cycle seeds varieties that are more resistant to pests and diseases. To save land preparation, zero tillage technology can be used. Water management systems need to be upgraded with proper technologies. Soil fertility programs also need to be improved. The use of organic fertilizers and composts favor better crop yields and resilience to the impacts of climate change. The provision of sufficient agriculture equipment can be used as a way to increase local livelihoods.<br><br>
+                    Although climate smart agriculture practices are expected to boost food security and climate change mitigation efforts in resource-poor smallholder farming system, the barriers that can restrict its uptake are diverse. Non-adoption is often a result of insufficient financial capital, water scarcity or lack of technical knowledge.<br><br>
+                    In countries where the economy is heavily based on agriculture, developing the agricultural sector is an effective measure in reducing poverty. However, agricultural expansion for food production and economic development places more pressure on soil, water, biodiversity, forests and fragile ecosystems.<br><br> 
+                    
+                    Agriculture has to simultaneously address three intertwined challenges:</p>
+                   	<ol>
+						<li >Increase productivity to ensure food security </li>
+						<li >Adapt to the increasing impacts of climate change</li>
+						<li >Contribute to climate change mitigation</li>					
+					</ol>
+
+                    <p>	 Approaches to climate smart agriculture include:</p>
+                   	<ul>
+
+						<li >Promoting activities that increase carbon storage						</li>
+						<li >Reducing methane and other emissions from agriculture including livestock, rice fields and the use of fertilizers</li>
+						<li >Diversifying genetic traits of crops to help farmers hedge against an uncertain climate</li>
+						<li >Disseminates timely climate information to farmers (through radio, phone messaging, etc...)</li>
+						<li>Seek to increase yields per unit of land to meet today’s needs without exceeding current resources</li>							
+					</ul>					
+
+                	
+                    <div class="list-inline banner-social-buttons">
+                    	<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#resources">Resources</button>
+                    </div>
+
+
+					<!-- Modal -->
+					<div class="modal fade " id="resources" tabindex="-1" role="dialog" aria-labelledby="resources"
+					  aria-hidden="true">
+					  <div class="modal-dialog modal-dialog-scrollable modal-xl" role="document">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="Resources">Resources</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+								<p>
+								Here you can find a list of references used in our research.<br /><br>
+
+								General<br />
+								<a href="http://www-naweb.iaea.org/nafa/swmn/crp/swmcn-agro-ecosystems.html" target="_blank">http://www-naweb.iaea.org/nafa/swmn/crp/swmcn-agro-ecosystems.html</a><br /><br>
+
+								Temperature<br />
+
+								<a href="https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature" target="_blank">https://www.climate.gov/news-features/understanding-climate/climate-change-global-temperature</a><br />
+								<a href="https://news.un.org/en/story/2019/11/1052171" target="_blank">https://news.un.org/en/story/2019/11/1052171</a><br />
+								<a href="https://www.worldwildlife.org/publications/assessing-climate-risk-in-myanmar-technical-report" target="_blank">https://www.worldwildlife.org/publications/assessing-climate-risk-in-myanmar-technical-report</a><br />
+								<a href="https://myanmarccalliance.org/en/climate-change-basics/impact-of-climate-change-and-the-case-of-myanmar/" target="_blank">https://myanmarccalliance.org/en/climate-change-basics/impact-of-climate-change-and-the-case-of-myanmar/</a><br />
+								<a href="https://www.climate-service-center.de/products_and_publications/fact_sheets/climate_fact_sheets/index.php.en" target="_blank">https://www.climate-service-center.de/products_and_publications/fact_sheets/climate_fact_sheets/index.php.en</a><br /><br>
+
+								Droughts<br />
+								<a href="https://iopscience.iop.org/article/10.1088/1748-9326/9/4/041001/pdf" target="_blank">https://iopscience.iop.org/article/10.1088/1748-9326/9/4/041001/pdf</a><br />
+								<a href="https://www.droughtmanagement.info/literature/UNW-DPC_NDMP_Country_Report_Myanmar_2014.pdf" target="_blank">https://www.droughtmanagement.info/literature/UNW-DPC_NDMP_Country_Report_Myanmar_2014.pdf</a><br />
+								<a href="https://earthobservatory.nasa.gov/images/146293/drought-hits-thailand?src=eoa-iotd&fbclid=IwAR16ZLhVUxOJrSIdR_8V87fcxHsdmaX1kJYSnNI5G_qkUBNH6ZOMVFrmpm8" target="_blank">https://earthobservatory.nasa.gov/images/146293/drought-hits-thailand?src=eoa-iotd&fbclid=IwAR16ZLhVUxOJrSIdR_8V87fcxHsdmaX1kJYSnNI5G_qkUBNH6ZOMVFrmpm8</a><br /><br>
+								Floodings<br />
+
+								<a href="https://www.statista.com/statistics/267750/economic-damage-caused-by-floods-worldwide/" target="_blank">https://www.statista.com/statistics/267750/economic-damage-caused-by-floods-worldwide/</a><br />
+								<a href="https://www.myanmardatatada.com/myanmar-flood-2019.html" target="_blank">https://www.myanmardatatada.com/myanmar-flood-2019.html</a><br />
+								<a href="https://www.climate-service-center.de/products_and_publications/fact_sheets/climate_fact_sheets/index.php.en" target="_blank">https://www.climate-service-center.de/products_and_publications/fact_sheets/climate_fact_sheets/index.php.en</a><br /><br>
+
+								Sea lever rise<br />
+								<a href="https://www.worldwildlife.org/publications/assessing-climate-risk-in-myanmar-technical-report" target="_blank">https://www.worldwildlife.org/publications/assessing-climate-risk-in-myanmar-technical-report</a><br />
+								<a href="https://www.mekongeye.com/2019/09/06/the-salty-taste-of-climate-change-in-myanmar/" target="_blank">https://www.mekongeye.com/2019/09/06/the-salty-taste-of-climate-change-in-myanmar/</a><br />
+								<a href="https://www.ipcc.ch/site/assets/uploads/2018/05/SYR_AR5_FINAL_full_wcover.pdf" target="_blank">https://www.ipcc.ch/site/assets/uploads/2018/05/SYR_AR5_FINAL_full_wcover.pdf</a><br /><br>
+
+								Erosion - Gulf of Mottama <br />
+								<a href="https://themimu.info/sites/themimu.info/files/assessment_file_attachments/CLCMGoMP_IUCN_O3_Ecology_Assessment_Report_FinalDraft_Sep2015.pdf" target="_blank">https://themimu.info/sites/themimu.info/files/assessment_file_attachments/CLCMGoMP_IUCN_O3_Ecology_Assessment_Report_FinalDraft_Sep2015.pdf</a><br />
+								<a href="http://rcj.o.oo7.jp/english/report/Rapid%20Assessment%20of%20the%20Gulf%20of%20Mottama.pdf" target="_blank">http://rcj.o.oo7.jp/english/report/Rapid%20Assessment%20of%20the%20Gulf%20of%20Mottama.pdf</a><br />
+								<a href="https://rsis.ramsar.org/RISapp/files/39465170/documents/MM2299_mgt191206.pdf" target="_blank">https://rsis.ramsar.org/RISapp/files/39465170/documents/MM2299_mgt191206.pdf</a><br /><br>
+
+								Salinisation<br />
+								<a href="https://myanmarccalliance.org/en/climate-change-basics/impact-of-climate-change-and-the-case-of-myanmar/" target="_blank">https://myanmarccalliance.org/en/climate-change-basics/impact-of-climate-change-and-the-case-of-myanmar/</a><br />
+								<a href="https://www.gaiadiscovery.com/agriculture-industry/myanmar-central-dry-zone-crop-yields-drop-due-to-salinizatio.html" target="_blank">https://www.gaiadiscovery.com/agriculture-industry/myanmar-central-dry-zone-crop-yields-drop-due-to-salinizatio.html</a><br />
+								<a href="https://www.mekongeye.com/2019/09/06/the-salty-taste-of-climate-change-in-myanmar/" target="_blank">https://www.mekongeye.com/2019/09/06/the-salty-taste-of-climate-change-in-myanmar/</a><br /><br>
+
+								Agriculture in Myanmar <br />
+								<a href="https://www.moali.gov.mm/en/node/333" target="_blank">https://www.moali.gov.mm/en/node/333</a><br />
+								<a href="https://www.eurocham-myanmar.org/uploads/d3b45-989bb-agriculture-2019-draft-5-page.pdf" target="_blank">https://www.eurocham-myanmar.org/uploads/d3b45-989bb-agriculture-2019-draft-5-page.pdf</a><br />
+								<a href="https://www.adb.org/sites/default/files/publication/492711/ado2019.pdf" target="_blank">https://www.adb.org/sites/default/files/publication/492711/ado2019.pdf</a><br /><br>
+
+								Deforestation<br />
+								<a href="https://eia-international.org/forests/deforestation/" target="_blank">https://eia-international.org/forests/deforestation/</a><br />
+								<a href="http://www.fao.org/myanmar/news/detail-events/en/c/408987/" target="_blank">http://www.fao.org/myanmar/news/detail-events/en/c/408987/</a><br />
+								<a href="https://www.forest-trends.org/wp-content/uploads/2015/03/Conversion_Timber_in_Myanmar-1.pdf" target="_blank">https://www.forest-trends.org/wp-content/uploads/2015/03/Conversion_Timber_in_Myanmar-1.pdf</a><br />
+								<a href="http://www.myanmar-redd.org/wp-content/uploads/2017/10/Myanmar-Drivers-Report-final_Eng-Version.pdf" target="_blank">http://www.myanmar-redd.org/wp-content/uploads/2017/10/Myanmar-Drivers-Report-final_Eng-Version.pdf</a><br /><br>
+
+								Food security<br />
+								<a href="https://www.iaea.org/topics/food-security-and-climate-change" target="_blank">https://www.iaea.org/topics/food-security-and-climate-change</a><br />
+								<a href="https://www.lift-fund.org/lift-annual-report-2018" target="_blank">https://www.lift-fund.org/lift-annual-report-2018</a><br /><br>
+
+								Greenhouse gas emissions, pesticides, and organic farming <br />
+								<a href="https://www.sciencemag.org/news/2019/12/greenhouse-gas-emissions-year-set-new-record-rate-growth-shrinks" target="_blank">https://www.sciencemag.org/news/2019/12/greenhouse-gas-emissions-year-set-new-record-rate-growth-shrinks</a><br />
+								<a href="https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data" target="_blank">https://www.epa.gov/ghgemissions/global-greenhouse-gas-emissions-data</a><br />
+								<a href="https://www.unenvironment.org/ietc/resources/report/waste-management-myanmar-current-status-key-challanges-and-recomendations-national" target="_blank">https://www.unenvironment.org/ietc/resources/report/waste-management-myanmar-current-status-key-challanges-and-recomendations-national</a><br />
+								<a href="https://www.climatelinks.org/resources/greenhouse-gas-emissions-factsheet-burma" target="_blank">https://www.climatelinks.org/resources/greenhouse-gas-emissions-factsheet-burma</a><br />
+								<a href="http://www.fao.org/3/a-i8276e.pdf" target="_blank">http://www.fao.org/3/a-i8276e.pdf</a><br />
+								<a href="https://www.nature.com/articles/s41467-017-01410-w" target="_blank">https://www.nature.com/articles/s41467-017-01410-w</a><br />
+								<a href="https://www.nature.com/articles/s41467-019-12622-7" target="_blank">https://www.nature.com/articles/s41467-019-12622-7</a><br /><br>
+
+								Myanmar government climate change framework <br />
+								<a href="https://www4.unfccc.int/sites/ndcstaging/PublishedDocuments/Myanmar%20First/Myanmar%27s%20INDC.pdf" target="_blank">https://www4.unfccc.int/sites/ndcstaging/PublishedDocuments/Myanmar%20First/Myanmar%27s%20INDC.pdf</a><br />
+								<a href="https://gggi.org/site/assets/uploads/2017/11/Myanmar-MRV-DRAFT-FINAL-Nov14-ar-DK1.pdf" target="_blank">https://gggi.org/site/assets/uploads/2017/11/Myanmar-MRV-DRAFT-FINAL-Nov14-ar-DK1.pdf</a><br />
+								<a href="https://unhabitat.org.mm/publications/myanmar-climate-change-strategy-2018-2030/" target="_blank">https://unhabitat.org.mm/publications/myanmar-climate-change-strategy-2018-2030/</a><br />
+								<a href="https://myanmar.un.org/en/25466-myanmar-climate-change-master-plan-2018-2030" target="_blank">https://myanmar.un.org/en/25466-myanmar-climate-change-master-plan-2018-2030</a>
+								</p>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="content-section text-center">
+        <div class="container">
+            <div class="row">
+
+
+
+
+
+
+                <div class="col-lg-8 mx-auto">
+                	
+                    <h2>Contact us</h2>
+                     
+                    <a href="https://www.instagram.com/agriclima/" target="_blank"> <i class="fa fa-instagram" style="font-size: 39px;"></i> </a> - 
+                    <a href="https://www.facebook.com/climatechangeawarenessmovement/" target="_blank"> <i class="fa fa-facebook" style="font-size: 39px;"></i> </a> - 
+                    <a href="https://www.youtube.com/watch?v=kdVBEbYGjL0" target="_blank"> <i class="fa fa-youtube" style="font-size: 39px;"></i> </a>  
+                    <br><br>
+                    <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+
+
+
+                    <!--Section: Contact v.2-->
+
+
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-12 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="@" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+
+    </div>
+
+
+<!--Section: Contact v.2-->
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <footer>
+
+					
+				<div class="is-content ce-code text-center">
+					<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+				</div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/grayscale.js"></script>
+
+
+</body>
+
+</html>
